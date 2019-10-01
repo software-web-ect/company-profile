@@ -15,12 +15,20 @@ Route::get('/', function () {
     return view('/homepage');
 });
 
-Auth::routes();
+Auth::routes(['verify' => true]);
+
+Route::get('homepage', function () {
+})->middleware('verified');
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/homepage', 'PageController@index');
 
 Route::get('/about', 'PageController@about');
 
 Route::get('/contact', 'PageController@contact');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
