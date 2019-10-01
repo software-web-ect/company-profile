@@ -1,5 +1,5 @@
 @extends('template')
-@section('title', 'Belajar Koding')
+@section('title')
 
 @section('intro-header')
     <!-- Header -->
