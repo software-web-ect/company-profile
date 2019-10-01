@@ -30,4 +30,13 @@ class UserController extends Controller
             'UserController@homepage', ['id' => 1]
         );
      }
+
+    public function storeSecret(Request $request, $id)
+    {
+        $user = User::findOrFail($id);
+
+        $user->fill([
+            'secret' => encrypt($request->secret),
+        ])->save();
+    }
 }
