@@ -1,6 +1,5 @@
 @extends('template')
 @section('title')
-
 @section('intro-header')
     <!-- Header -->
     <header class="intro-header text-white" style="background: url('{{ asset
@@ -19,7 +18,7 @@
     <section class="main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mx-auto">
+                <div class="col-lg-8 mx-auto">
                     <h2>Halaman</h2>
                     <p class="lead">Dengan berkembang pesatnya pasar industri dan pembangunan di indonesia,
                         Mochamad Fauzan selaku penggerak bisnis melihat peluang untuk membantu mensetabilkan pemasokan barang pasar industri yang saat ini sangat berkembang pesat.
@@ -35,7 +34,7 @@
     <section class="main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mx-auto">
+                <div class="col-lg-8 mx-auto">
                     <h2>Visi Esuplly ​:</h2>
                     <p class="lead">Esuplly merupakan perusahan yang bergerak di bidang penyediaan peralatan industri yang inovatif dan terpercaya
                         dan terpercaya untuk menyediakan peralatan yang sesuai dengan kebutuhan perusahan di indonesia.
@@ -49,7 +48,7 @@
     <section class="main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mx-auto">
+                <div class="col-lg-8 mx-auto">
                     <h2>Misi Esuplly ​:</h2>
                     <p class="lead">1. Sebagai mitra yang dapat di andalkan Esupply membantu perusahaan untuk menyediakan peralatan industri ( electrical, mechanical, pneumatic, maintenace dan service ) sesuai dengan kebutuhan.
                         2. Sebagai mitra yang dapat di percaya Esupply berkomitmen untuk menyediakan barang tepat waktu.
@@ -63,7 +62,7 @@
     <section class="main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mx-auto">
+                <div class="col-lg-8 mx-auto">
                     <h2>Komitmen Esuplly ​:</h2>
                     <p class="lead">Kami tahu kunci keberhasilan yang berkelanjutan tidak hanya membayangkan dan merencanakan masa depan,
                         tetapi juga dalam menyelesaikan tantangan hari ini. Dengan ini kami berkomitmenuntuk membantu pelanggan kami untuk

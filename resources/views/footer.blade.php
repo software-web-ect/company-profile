@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="py-5 bg-info">
     <div class="container">
-        <p class="m-0 text-center text-white">Copyright 2019</p>
+        <p class="m-0 text-right text-white">Copyright 2019</p>
     </div>
 </footer>
 <!-- END : Footer -->
